@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SamplePOM1" duration-ms="35967" started-at="2020-10-17T16:57:48Z" finished-at="2020-10-17T16:58:24Z">
+    <groups>
+    </groups>
+    <test name="Blaze" duration-ms="35967" started-at="2020-10-17T16:57:48Z" finished-at="2020-10-17T16:58:24Z">
+      <class name="com.blaze.tests.TestPurchaseLaptop">
+        <test-method status="PASS" signature="initSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="initSetUp" is-config="true" duration-ms="4523" started-at="2020-10-17T22:27:48Z" finished-at="2020-10-17T22:27:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LocalMachine]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetUp -->
+        <test-method status="PASS" signature="initConstr()[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="initConstr" is-config="true" duration-ms="49" started-at="2020-10-17T22:27:53Z" depends-on-methods="com.blaze.tests.BaseTest.initSetUp" finished-at="2020-10-17T22:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConstr -->
+        <test-method status="PASS" signature="accessDemoBlazeApp()[pri:1, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="accessDemoBlazeApp" duration-ms="5433" started-at="2020-10-17T22:27:53Z" finished-at="2020-10-17T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessDemoBlazeApp -->
+        <test-method status="PASS" signature="addingSonyVaioi5LaptopToCart()[pri:2, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="addingSonyVaioi5LaptopToCart" duration-ms="4692" started-at="2020-10-17T22:27:58Z" finished-at="2020-10-17T22:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSonyVaioi5LaptopToCart -->
+        <test-method status="PASS" signature="addingDelli78GBLatopToCart()[pri:3, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="addingDelli78GBLatopToCart" duration-ms="8330" started-at="2020-10-17T22:28:03Z" finished-at="2020-10-17T22:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingDelli78GBLatopToCart -->
+        <test-method status="PASS" signature="deletingDelli78GBLaptopFromCart()[pri:4, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="deletingDelli78GBLaptopFromCart" duration-ms="11311" started-at="2020-10-17T22:28:11Z" finished-at="2020-10-17T22:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingDelli78GBLaptopFromCart -->
+        <test-method status="PASS" signature="clickPlaceOrder()[pri:5, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="clickPlaceOrder" duration-ms="121" started-at="2020-10-17T22:28:22Z" finished-at="2020-10-17T22:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPlaceOrder -->
+        <test-method status="PASS" signature="fillPurchaseForm()[pri:6, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="fillPurchaseForm" duration-ms="241" started-at="2020-10-17T22:28:23Z" finished-at="2020-10-17T22:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillPurchaseForm -->
+        <test-method status="PASS" signature="clickPurchaseForm()[pri:7, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="clickPurchaseForm" duration-ms="184" started-at="2020-10-17T22:28:23Z" finished-at="2020-10-17T22:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPurchaseForm -->
+        <test-method status="PASS" signature="capturePurchaseIDAndAmount()[pri:8, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="capturePurchaseIDAndAmount" duration-ms="42" started-at="2020-10-17T22:28:23Z" finished-at="2020-10-17T22:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturePurchaseIDAndAmount -->
+        <test-method status="PASS" signature="assertPurchaseAmountEqualsExpected()[pri:9, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="assertPurchaseAmountEqualsExpected" duration-ms="4" started-at="2020-10-17T22:28:23Z" finished-at="2020-10-17T22:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPurchaseAmountEqualsExpected -->
+        <test-method status="PASS" signature="clickedOKButton()[pri:10, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="clickedOKButton" duration-ms="122" started-at="2020-10-17T22:28:23Z" finished-at="2020-10-17T22:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickedOKButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blaze.tests.TestPurchaseLaptop@d8355a8]" name="tearDown" is-config="true" duration-ms="867" started-at="2020-10-17T22:28:23Z" finished-at="2020-10-17T22:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blaze.tests.TestPurchaseLaptop -->
+    </test> <!-- Blaze -->
+  </suite> <!-- SamplePOM1 -->
+</testng-results>

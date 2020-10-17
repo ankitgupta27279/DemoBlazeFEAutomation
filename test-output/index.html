@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SamplePOM1">
+              <span class="suite-name border-passed">SamplePOM1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SamplePOM1">
+                    <span>D:\workspace_2_mvn\DemoBlazeFEAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SamplePOM1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SamplePOM1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SamplePOM1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SamplePOM1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SamplePOM1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SamplePOM1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SamplePOM1" class="hide-methods passed suite-SamplePOM1"> (hide)</a> <!-- hide-methods passed suite-SamplePOM1 -->
+                      <a href="#" panel-name="suite-SamplePOM1" class="show-methods passed suite-SamplePOM1"> (show)</a> <!-- show-methods passed suite-SamplePOM1 -->
+                    </span>
+                    <div class="method-list-content passed suite-SamplePOM1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="accessDemoBlazeApp">accessDemoBlazeApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="addingDelli78GBLatopToCart">addingDelli78GBLatopToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="addingSonyVaioi5LaptopToCart">addingSonyVaioi5LaptopToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="assertPurchaseAmountEqualsExpected">assertPurchaseAmountEqualsExpected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="capturePurchaseIDAndAmount">capturePurchaseIDAndAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="clickPlaceOrder">clickPlaceOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="clickPurchaseForm">clickPurchaseForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="clickedOKButton">clickedOKButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="deletingDelli78GBLaptopFromCart">deletingDelli78GBLaptopFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SamplePOM1" title="com.blaze.tests.TestPurchaseLaptop" hash-for-method="fillPurchaseForm">fillPurchaseForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SamplePOM1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SamplePOM1" class="panel SamplePOM1">
+          <div class="suite-SamplePOM1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.blaze.tests.TestPurchaseLaptop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accessDemoBlazeApp">
+                  </a> <!-- accessDemoBlazeApp -->
+                  <span class="method-name">accessDemoBlazeApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingDelli78GBLatopToCart">
+                  </a> <!-- addingDelli78GBLatopToCart -->
+                  <span class="method-name">addingDelli78GBLatopToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingSonyVaioi5LaptopToCart">
+                  </a> <!-- addingSonyVaioi5LaptopToCart -->
+                  <span class="method-name">addingSonyVaioi5LaptopToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPurchaseAmountEqualsExpected">
+                  </a> <!-- assertPurchaseAmountEqualsExpected -->
+                  <span class="method-name">assertPurchaseAmountEqualsExpected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="capturePurchaseIDAndAmount">
+                  </a> <!-- capturePurchaseIDAndAmount -->
+                  <span class="method-name">capturePurchaseIDAndAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPlaceOrder">
+                  </a> <!-- clickPlaceOrder -->
+                  <span class="method-name">clickPlaceOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPurchaseForm">
+                  </a> <!-- clickPurchaseForm -->
+                  <span class="method-name">clickPurchaseForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickedOKButton">
+                  </a> <!-- clickedOKButton -->
+                  <span class="method-name">clickedOKButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletingDelli78GBLaptopFromCart">
+                  </a> <!-- deletingDelli78GBLaptopFromCart -->
+                  <span class="method-name">deletingDelli78GBLaptopFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPurchaseForm">
+                  </a> <!-- fillPurchaseForm -->
+                  <span class="method-name">fillPurchaseForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SamplePOM1-class-passed -->
+        </div> <!-- panel SamplePOM1 -->
+        <div panel-name="test-xml-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspace_2_mvn\DemoBlazeFEAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SamplePOM1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Blaze&quot;&gt;
+    &lt;parameter name=&quot;deviceType&quot; value=&quot;Desktop&quot;/&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;LocalMachine&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.blaze.tests.TestPurchaseLaptop&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Blaze --&gt;
+&lt;/suite&gt; &lt;!-- SamplePOM1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SamplePOM1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Blaze (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SamplePOM1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SamplePOM1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SamplePOM1');
+function tableData_SamplePOM1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deletingDelli78GBLaptopFromCart')
+data.setCell(0, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(0, 3, 11311);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addingDelli78GBLatopToCart')
+data.setCell(1, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(1, 3, 8330);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'accessDemoBlazeApp')
+data.setCell(2, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(2, 3, 5433);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addingSonyVaioi5LaptopToCart')
+data.setCell(3, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(3, 3, 4692);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fillPurchaseForm')
+data.setCell(4, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(4, 3, 241);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickPurchaseForm')
+data.setCell(5, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(5, 3, 184);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickedOKButton')
+data.setCell(6, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(6, 3, 122);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickPlaceOrder')
+data.setCell(7, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(7, 3, 121);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'capturePurchaseIDAndAmount')
+data.setCell(8, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(8, 3, 42);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'assertPurchaseAmountEqualsExpected')
+data.setCell(9, 2, 'com.blaze.tests.TestPurchaseLaptop')
+data.setCell(9, 3, 4);
+window.suiteTableData['SamplePOM1']= { tableData: data, tableDiv: 'times-div-SamplePOM1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-SamplePOM1">
+              </div> <!-- times-div-SamplePOM1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SamplePOM1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SamplePOM1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.blaze.tests.TestPurchaseLaptop</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initSetUp(Desktop, Windows, 10, LocalMachine, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initConstr</span>
+                <span class="method-start">4523 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">accessDemoBlazeApp</span>
+                <span class="method-start">4581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingSonyVaioi5LaptopToCart</span>
+                <span class="method-start">10016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingDelli78GBLatopToCart</span>
+                <span class="method-start">14714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletingDelli78GBLaptopFromCart</span>
+                <span class="method-start">23048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickPlaceOrder</span>
+                <span class="method-start">34361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillPurchaseForm</span>
+                <span class="method-start">34483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickPurchaseForm</span>
+                <span class="method-start">34726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">capturePurchaseIDAndAmount</span>
+                <span class="method-start">34918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertPurchaseAmountEqualsExpected</span>
+                <span class="method-start">34964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickedOKButton</span>
+                <span class="method-start">34970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35095 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

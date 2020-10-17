@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SamplePOM1" thread-count="10" parallel="tests">
+
+	<test name="Blaze">
+		<parameter name="deviceType" value="Desktop" />
+		<parameter name="platformName" value="Windows" />
+		<parameter name="platformVersion" value="10" />
+		<parameter name="deviceName" value="LocalMachine" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.blaze.tests.TestPurchaseLaptop" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
